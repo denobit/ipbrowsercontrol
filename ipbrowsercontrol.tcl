@@ -8,6 +8,4 @@ if {not([class match [IP::client_addr] equals ip_allowed]) or not([class match [
 	ACCESS::session remove
 }
 }
-
-
 }
